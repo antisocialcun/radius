@@ -1,0 +1,19 @@
+//This is a program to accept input from the user.
+//Written by: Usphea Kim
+
+#include <iostream> //This is the directive input out streams
+using namespace std; //use standard namespace
+
+int main () //main function
+{ //to open main function block
+    float radius, area, circumference; //declare variables for radius, area & circumference
+    cout<<"Enter radius "; //For user input
+    cin>>radius; //accept radius
+    
+    area = 3.14*(radius*radius); //formula for area
+    circumference = 2*3.14*radius; //formula for circumference
+    cout<<"The area of the circle is "<<area<<endl; //display area
+    cout<<"The circumference of the circle is "<<circumference<<endl; //display circumference
+
+    return 0; //end of main function
+} //to close main function block
